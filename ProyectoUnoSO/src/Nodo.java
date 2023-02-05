@@ -27,23 +27,7 @@ public class Nodo{
     public Integer getTiempo() {
         return tiempo;
     }
-    /*
-    public void setNumProceso(Integer numProceso) {
-        this.numProceso = numProceso;
-    }
 
-    public void setNomProceso(String nomProceso) {
-        this.nomProceso = nomProceso;
-    }
-
-    public void setTamaño(Integer tamaño) {
-        this.tamaño = tamaño;
-    }
-
-    public void setTiempo(Integer tiempo) {
-        this.tiempo = tiempo;
-    }
-    */
     @Override
     public String toString(){
         return "["+"Numero de Proceso: "+numProceso+" Nombre del proceso: "+nomProceso+" Tamaño del proceso: "+tamaño+" Tiempo del proceso: "+tiempo+"]------>";

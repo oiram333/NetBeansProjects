@@ -5,10 +5,11 @@ import javax.swing.JOptionPane;
 
 public class ProyectoUno {
     public static void main(String[] args){
+        //Creamos la lista con la clase nodo.
         List<Nodo> list = new ArrayList<>();
         int numProceso, opcion = 0, tamaño, tiempo;
         String nomProceso = null;
-        
+        //Este blucle sera el encargado de mostrar nuesto menu.
         do{
             try{
                 opcion = Integer.parseInt(JOptionPane.showInputDialog(null,
