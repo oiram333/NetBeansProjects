@@ -21,7 +21,7 @@ public class ProyectoUno {
                             numProceso = Integer.parseInt(JOptionPane.showInputDialog("Ingresa el numero del proceso"));
                             nomProceso = JOptionPane.showInputDialog("Ingresa el nombre");
                             tamaño = Integer.parseInt(JOptionPane.showInputDialog("Ingresa el tamaño del proceso"));
-                            tiempo = Integer.parseInt(JOptionPane.showInputDialog("Ingresa el tempo del proceso"));
+                            tiempo = Integer.parseInt(JOptionPane.showInputDialog("Ingresa el tiempo del proceso"));
                             list.add(new Nodo(numProceso,nomProceso,tamaño,tiempo));
                             
                         }catch(Exception e){    
